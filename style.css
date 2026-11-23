@@ -1,0 +1,162 @@
+﻿* {
+ 
+ box-sizing: border-box;
+
+}
+
+
+body {
+  
+margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #f5f6f8;
+
+}
+
+
+.wrap {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+}
+
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+
+}
+
+
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+a {
+  color: #1d5fa7;
+
+}
+
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+
+}
+
+
+
+#about .ext-link {
+  font-weight: bold;
+
+}
+
+
+.ext-link {
+  font-weight: normal;
+  text-decoration: none;
+
+}
+
+
+.box {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+}
+
+
+.hero-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 6px;
+  margin-top: 10px;
+
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+
+}
+
+
+.card {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+
+}
+
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #1d5fa7;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+
+button:hover {
+  background: #15477e;
+
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #555;
+
+}
+
+
+@media (max-width: 650px) {
+  .nav-bar {
+    flex-direction: column;
+    gap: 8px;
+  
+}
+
+  
+.grid {
+    grid-template-columns: 1fr;
+  
+}
+
+}
